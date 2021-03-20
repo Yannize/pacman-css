@@ -142,3 +142,44 @@ body {
     opacity: 1;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .repas {
+    font-size: 40px;
+    animation-duration: 4s;
+  }
+  .repas:before {
+    font-size: 30px;
+  }
+  .repas:after {
+    font-size: 30px;
+  }
+  .pacman {
+    width: 200px;
+    height: 200px;
+    animation-duration: 4s;
+  }
+
+  .bouche-haut {
+    width: 200px;
+    height: 100px;
+  }
+
+  .bouche-bas {
+    width: 200px;
+    height: 100px;
+  }
+
+  .oeil {
+    height: 15px;
+    width: 20px;
+  }
+  @keyframes move {
+    0% {
+      transform: translateX(-50vh);
+    }
+    100% {
+      transform: translateX(50vh);
+    }
+  }
+}
